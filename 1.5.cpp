@@ -1,12 +1,15 @@
-/*5. Em épocas de pouco dinheiro, os comerciantes estão procurando aumentar suas vendas oferecendo desconto. Faça um
-algoritmo que receba o valor de um produto e que escreva o novo valor tendo em vista que o desconto foi de 9%.*/
+/* 5.In times of low money, merchants are looking to increase their sales by offering discounts.
+Make one algorithm that receives the value of a product and that writes the new value considering
+that the discount was 9%. */
+
 #include <stdio.h>
 #include <locale.h>
+
 main(){
-	setlocale(LC_ALL,"Portuguese");
-	float v;
-	printf("\nValor do produto: R$ ");
+	setlocale(LC_ALL,"en-US");
+	float v; // value.
+	printf("\nProduct value: R$ ");
 	scanf("%f", &v);
 	v -= v * 0.09;
-	printf("\nO valor com desconto é: R$ %.2f", v);
+	printf("\nThe discounted amount is: R$ %.2f", v);
 }

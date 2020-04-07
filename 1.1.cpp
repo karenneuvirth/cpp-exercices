@@ -1,9 +1,11 @@
 /* 1.Develop an algorithm that calculates the area of a triangle. Area = (base * height) / 2 */
+
 #include <stdio.h>
 #include <locale.h>
+
 main(){
-	setlocale(LC_ALL,"Portuguese");
-	float a, b, h;
+	setlocale(LC_ALL,"en-US");
+	float a, b, h; // area, base, height.
 	printf("\n---------------------------Calculating the area of a triangle---------------------------");
 	printf("\n\nBase: ");
 	scanf("%f", &b);
